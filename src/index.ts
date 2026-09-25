@@ -154,6 +154,31 @@ const push = defineCommand({
   }),
 })
 
+const insight = defineCommand({
+  meta: { name: 'insight', description: 'Create or update an insight card' },
+  args: {
+    ...shared,
+    project: { type: 'string', description: 'Project id', required: true },
+    title: {
+      type: 'string',
+      description: 'Card title — setting the same title again updates that card',
+      required: true,
+    },
+    value: { type: 'string', description: 'Value to display', required: true },
+    icon: { type: 'string', description: 'Emoji icon (left alone on update if omitted)' },
+  },
+  run: guard(async ({ args }) => {
+    await api({
+      url: args.url,
+      apiKey: requireKey(args),
+      path: '/api/insight',
+      method: 'POST',
+      body: { project: args.project, title: args.title, value: args.value, icon: args.icon },
+    })
+    console.log(`set ${args.title} = ${args.value}`)
+  }),
+})
+
 const list = defineCommand({
   meta: { name: 'list', description: 'List projects' },
   args: shared,
@@ -213,7 +238,7 @@ const main = defineCommand({
     version,
     description: 'Push events and manage projects from the command line',
   },
-  subCommands: { init, push, list, export: exportCommand, load },
+  subCommands: { init, push, insight, list, export: exportCommand, load },
 })
 
 runMain(main)

@@ -127,12 +127,7 @@ butters push \
 | `--metadata <json>` | no | JSON object or array, opened in a dialog from the feed. Parsed before sending, so a broken quote is reported here rather than as a `400` |
 | `--notify` | no | Highlight in the feed and send to the project's ntfy and webhook destinations |
 
-Two things the HTTP API supports that the CLI does not yet — use `curl` if you
-need them today:
-
-- there is no `--tags`, so tags can only be set over the API;
-- there is no `insight` subcommand, so insight cards are written with
-  `POST /api/insight`.
+There is no `--tags` yet, so tags can only be set over the API.
 
 `--metadata` is the one to reach for when a script is reporting an error:
 
@@ -146,6 +141,32 @@ butters push \
 
 Shell quoting is the usual trap — single-quote the whole JSON document so the
 double quotes inside it survive.
+
+### insight
+
+Create an insight card, or update the one with the same title, via
+`POST /api/insight`.
+
+```bash
+butters insight \
+  --project q4q8nb18qc2i \
+  --title "24h Sales" \
+  --value '$1,449' \
+  --icon "☀️"
+```
+
+| Option | Required | Description |
+|--------|----------|-------------|
+| `--project <id>` | yes | Project ID |
+| `--title <title>` | yes | Card title. It is the card's key within the project: setting the same title again updates that card |
+| `--value <value>` | yes | Value to display. Sent as text, so `0` and an empty string both count |
+| `--icon <emoji>` | no | Emoji icon, up to 16 characters. Left unchanged when an update leaves it out |
+
+Prints `set <title> = <value>`. Single-quote values with a `$` in them, or the
+shell will expand it.
+
+There is no delete command yet: the API deletes insights by id, and nothing
+returns those ids. Delete a card from the dashboard.
 
 ### list
 
@@ -246,13 +267,11 @@ butters push --project $PROJECT --category shipping --title "Order Shipped" --ic
 butters push --project $PROJECT --category shipping --title "Order Delivered" --icon "📦" --notify
 ```
 
-Insight cards, until the CLI grows a subcommand for them:
+Keep a KPI card current, e.g. from a nightly job:
 
 ```bash
-curl -X POST "https://app.getbutters.com/api/insight" \
-  -H "Authorization: Bearer $GETBUTTERS_API_KEY" \
-  -H 'Content-Type: application/json' \
-  -d '{"project":"'$PROJECT'","title":"24h Sales","value":"$1,449","icon":"☀️"}'
+butters insight --project $PROJECT --title "24h Sales" --value '$1,449' --icon "☀️"
+butters insight --project $PROJECT --title "Orders Processing" --value 23 --icon "🏭"
 ```
 
 Back up nightly:

@@ -51,6 +51,8 @@ beforeAll(async () => {
           return json({ id: 'projnewnewne', name: JSON.parse(text).name })
         case 'POST /api/events':
           return json({ id: 42, title: JSON.parse(text).title })
+        case 'POST /api/insight':
+          return json({ ok: true })
         case 'GET /api/export':
           return json(exportDocument)
         case 'POST /api/import':
@@ -168,6 +170,54 @@ describe('butters CLI', () => {
 
     expect(exitCode).not.toBe(0)
     expect(stderr).toContain('--metadata')
+    expect(requests).toHaveLength(0)
+  })
+
+  test('insight sets a card', async () => {
+    const { stdout, exitCode } = await cli(
+      'insight',
+      '--project',
+      'projaaaaaaaa',
+      '--title',
+      '24h Sales',
+      '--value',
+      '$1,449',
+      '--icon',
+      '☀️',
+    )
+
+    expect(exitCode).toBe(0)
+    expect(stdout).toContain('set 24h Sales = $1,449')
+    expect(requests[0]).toMatchObject({
+      method: 'POST',
+      path: '/api/insight',
+      body: { project: 'projaaaaaaaa', title: '24h Sales', value: '$1,449', icon: '☀️' },
+    })
+  })
+
+  // The API keeps the card's icon when an update leaves it out, so the CLI
+  // must not send one it wasn't given.
+  test('insight without --icon sends no icon', async () => {
+    const { exitCode } = await cli('insight', '--project', 'projaaaaaaaa', '--title', 'Orders', '--value', '23')
+
+    expect(exitCode).toBe(0)
+    expect(requests[0].body).toEqual({ project: 'projaaaaaaaa', title: 'Orders', value: '23' })
+  })
+
+  // The API accepts 0 and "" as values, so the CLI must not treat them as missing.
+  for (const value of ['0', '']) {
+    test(`insight accepts --value ${JSON.stringify(value)}`, async () => {
+      const { exitCode } = await cli('insight', '--project', 'projaaaaaaaa', '--title', 'Errors', '--value', value)
+
+      expect(exitCode).toBe(0)
+      expect(requests[0].body.value).toBe(value)
+    })
+  }
+
+  test('insight requires --value', async () => {
+    const { exitCode } = await cli('insight', '--project', 'projaaaaaaaa', '--title', 'Errors')
+
+    expect(exitCode).not.toBe(0)
     expect(requests).toHaveLength(0)
   })
 
