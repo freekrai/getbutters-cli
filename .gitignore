@@ -1,0 +1,22 @@
+# Agent state
+.omc/
+.memsearch/
+.beads/
+.claude/settings.local.json
+.claude/worktrees/
+
+# dependencies
+node_modules/
+
+# Compiled CLI from `bun run build`
+/butters
+
+# environment variables
+.env
+.env*.local
+
+# macOS-specific files
+.DS_Store
+
+# Per-platform binaries from `bun run build:all`
+dist/

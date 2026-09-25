@@ -1,0 +1,40 @@
+{
+  "name": "getbutters-cli",
+  "version": "0.1.0",
+  "description": "Push events and manage GetButters projects from the command line",
+  "type": "module",
+  "license": "MIT",
+  "author": "Roger Stringer",
+  "bin": {
+    "butters": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "butters": "bun run src/index.ts",
+    "build": "bun build ./src/index.ts --compile --outfile butters",
+    "build:all": "bun run scripts/build.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint --write .",
+    "lint:fix": "biome check --write .",
+    "demos:generate": "bun run demos/generate.ts"
+  },
+  "dependencies": {
+    "citty": "^0.2.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.10",
+    "@types/bun": "^1.4.0",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "bun@latest",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freekrai/getbutters-cli.git"
+  }
+}

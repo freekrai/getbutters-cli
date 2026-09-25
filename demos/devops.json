@@ -1,0 +1,5760 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "deploybot",
+      "name": "DeployBot",
+      "categories": [
+        "deploys",
+        "builds",
+        "incidents"
+      ],
+      "events": [
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ca1223f",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786578563
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "66b52dd",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786580774
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "184c2b3",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786578539
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f11ec42",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786591362
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f08f88d",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786562964
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0201477",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786585210
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "33702fc",
+            "actor": "Maria"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786550168
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786599405
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786564978
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786561714
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786557609
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786592397
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786587928
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786592666
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786580331
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d3ebde5",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786683346
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "b38ee8b",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786674683
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "26ad249",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786633016
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e9aa2ac",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786670744
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3e27bf7",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786650830
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "de27985",
+            "actor": "Chloe"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786684685
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2be98a2",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786659681
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "469ad76",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786685447
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786653654
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786667893
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786654024
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786651678
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786644448
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786648904
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786654122
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786654572
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786659280
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786675415
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786657820
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786653666
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786663065
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786643079
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786655771
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786644424
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f0c52ff",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786720911
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "21e42dd",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786727456
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3d1ab19",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786771779
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "adeeb93",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786759142
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "7eba6c3",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786758254
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "6db68d4",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786768582
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0a5de42",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786770533
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "1a1e5bc",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786757514
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d0fadaa",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786765689
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786717248
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786726677
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786770766
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786739051
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786726298
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786740754
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786722502
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786740323
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786766234
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786726274
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786729418
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786737186
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786750191
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "200ef77",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786821688
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5d56386",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786817050
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0e4e03a",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786848004
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "584b5e2",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786851015
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "933ec29",
+            "actor": "Iris"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786826373
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "204ce0e",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786846295
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4fcb701",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786832955
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a3369d5",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786832514
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786842939
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786830999
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786803520
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786849274
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786842532
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786832848
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786827531
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4539499",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786929089
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5a1293c",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786918339
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "cfa9a3b",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786929275
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "8a27119",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786932094
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "117ded4",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786931882
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786944086
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786944235
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786899147
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786897751
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786943490
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786905056
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786920810
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786893952
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786925427
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ed7cbca",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786999528
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "270d577",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787031065
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5c64ad8",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786995999
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786990243
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786997926
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787011978
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786979358
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787025289
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787017442
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786979738
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787019313
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786994197
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787008896
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d29f3cf",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787077901
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "81530f5",
+            "actor": "Iris"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787074185
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "cab237e",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787105492
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "1d93fe1",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787067310
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "fd6c072",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787117891
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787062885
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787067747
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787069086
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787071472
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787086867
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787082735
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787106474
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787076322
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787097165
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787108206
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787113192
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787077291
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e991651",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787161578
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3af18ad",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787171434
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "07f15bd",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787192156
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "89e8e77",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787148774
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d85a03c",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787196347
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787157839
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787188397
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787203611
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787173521
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787190129
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787151526
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787192934
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787196643
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787153125
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787159626
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787184439
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787193034
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0c541d7",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787255388
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0eeb7d1",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787288201
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "117bf98",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787268526
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ce49a5f",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787235285
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787276680
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787267630
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787253716
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787244100
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787245122
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787249334
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787252580
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787259491
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787282519
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787288852
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787276152
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787276507
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787245930
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787265381
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "fb2f0e5",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787334403
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e882450",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787326057
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d63c261",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787375911
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "02a2887",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787340107
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d0a94dc",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787361781
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2480595",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787328241
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2d0c0a3",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787374496
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787344027
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787364936
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787374343
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787329201
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787362264
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787368827
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787329638
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e022926",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787428378
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e5c7a04",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787445080
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2fb9e79",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787437793
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f3083fc",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787442552
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "427ab63",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787445678
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "60929e8",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787454283
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "6d4af04",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787453181
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "eefa3ad",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787422087
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787435225
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787455484
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787414424
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787415694
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787444524
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787421953
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787448793
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787433100
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787423084
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787427723
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Resolved",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787423844
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e30c113",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787530899
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "fc610a1",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787507733
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2d154f2",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787550601
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "46424fd",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787535319
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "fec5739",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787515172
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787542098
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787516826
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787516903
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787540471
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787496355
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787506398
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787527728
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787549611
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787518504
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787536632
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787512712
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787494104
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787498526
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787507026
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a00cd3a",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787617243
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "74ad90b",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787624900
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "734d883",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787624933
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "852d76c",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787618256
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a0af38b",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787609183
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787618874
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787594424
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787590039
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787616786
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787590650
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787623899
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787587795
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787589470
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787610801
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Resolved",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787597163
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "6f16be7",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787674374
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ded5a04",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787699336
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "815322f",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787671254
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "8f8efd5",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787682668
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a08ffdd",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787692917
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f9d8dbf",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787716189
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "fdf417b",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787682665
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0807bef",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787671088
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787701205
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787673949
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787684786
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787667434
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787675820
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787697595
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787722591
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787720973
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787718014
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787704462
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787706516
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787695754
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787688555
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787703182
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787678112
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787716272
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "668cbf4",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787770888
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "01539f0",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787756759
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d6dc85e",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787807959
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787797029
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787797000
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787794513
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787785492
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787776357
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787778127
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "18fad28",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787887640
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "7a734af",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787881457
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "035d678",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787869146
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "6c01335",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787854239
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "97d5bdf",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787881359
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d017fd4",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787879653
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f122278",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787894373
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787892606
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787881456
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787884350
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787866713
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787877170
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787888131
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787887656
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787852066
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787877957
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787842928
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787857277
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ca850a5",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787943425
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "11e0ec8",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787973728
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a767823",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787965547
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787981550
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787949639
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787956312
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787933717
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787960854
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787974692
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787948264
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787954275
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787971113
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787946979
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5ba847e",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788038521
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e813308",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788031530
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "aed7864",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788026898
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "607d877",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788065167
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788053071
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788017349
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788029904
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788061697
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788035397
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788061246
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788032406
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788035228
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788034877
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788014785
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0edbae3",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788130288
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3886b0f",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788151608
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d6058e7",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788099447
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "cb6967f",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788109354
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c918876",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788140337
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788130684
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788143729
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788130287
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788102926
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788102924
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788147597
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788105152
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "aca5923",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788218560
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "74d670c",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788198097
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5c53102",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788236160
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c6a3350",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788210710
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4caee6a",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788227633
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "b2b2d27",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788236518
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "09443b1",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788230854
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788206285
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788241824
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788237747
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788194737
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788220057
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788232649
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788217600
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788229099
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788230204
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788190731
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788220645
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788214243
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788193647
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788214274
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788195453
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "99af12f",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788283584
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "58ac0a5",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788282681
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f5ae9ba",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788287465
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4e40d38",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788301046
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a322a5f",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788291163
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e6b7fee",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788278514
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "640a2e8",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788293877
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "073f0d2",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788321560
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "1afd772",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788283168
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788295101
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788282975
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788322773
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788314068
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788301354
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788314097
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788313896
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788299553
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788311116
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788296903
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788321012
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788276082
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788325653
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788317828
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788300935
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Resolved",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788279277
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4d7d97c",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788395423
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "90367e3",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788411794
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "62297d7",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788381617
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "74ec4e3",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788377470
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d7b16db",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788397648
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3689ce2",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788410716
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a07d512",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788406229
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "422e7a6",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788414887
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "8565837",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788383059
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788358157
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788376318
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788358972
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788397722
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788379917
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788388881
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788362336
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788364342
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "bc4315f",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788480885
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "22aa4ab",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788489547
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "652410c",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788461114
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "a0746d1",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788490312
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788465476
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788462692
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788450181
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788456725
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788475215
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788489603
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788497140
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788485009
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788494282
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788486632
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788463713
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788461542
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "af29164",
+            "actor": "Iris"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788548809
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "12e38a5",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788581310
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ab44de0",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788569555
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c62d5b6",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788535476
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f660255",
+            "actor": "Jonas"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788577973
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788559179
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788575696
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788562496
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788582643
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788562742
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788538762
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788535027
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788547836
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788568326
+        },
+        {
+          "category": "incidents",
+          "title": "Alert Fired",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788542036
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788558189
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "bcec6ec",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788626854
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "b36ddd6",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788618986
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e6bcc04",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788665678
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "35b15ff",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788673905
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "e483276",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788646701
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "290208f",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788636184
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788657533
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788647123
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788655121
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788669154
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788657442
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "58ec943",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788746230
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f3adbe8",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788705488
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "68ce0ba",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788716323
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "49275ba",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788733401
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788711437
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788744331
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788703247
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788707538
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788757555
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788718438
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788719833
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "b0eab7c",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788814764
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "dbff18b",
+            "actor": "Tomas"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788836360
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c31c824",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788826091
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "d91ef73",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788806086
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3433959",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788845591
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f6d414c",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788797940
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788798506
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788794999
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788806826
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788846560
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788789871
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV3**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788803840
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV1**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788846437
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ca77695",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788889640
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "3097545",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788921958
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "f90ebab",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788898588
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "0dcc3b5",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788925669
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ca54697",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788884622
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788906006
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788925887
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788909700
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788899149
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788894423
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788881450
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "9dd361c",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789004803
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "ab4248c",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788996208
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "bbf3773",
+            "actor": "Tomas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789001475
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "5b9dd22",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789015371
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "7371fcd",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788975793
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c141ee9",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788975229
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "49f966c",
+            "actor": "Wei"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789017270
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "4dad03f",
+            "actor": "Priya"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789003721
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789008945
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789018679
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788992138
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789017486
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788987135
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789016456
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789011611
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789005013
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "feat/search"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788995859
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788963392
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "df5acb1",
+            "actor": "Jonas"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789095431
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2b2846f",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789097569
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "bed67dd",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789050618
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "db5331a",
+            "actor": "Maria"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789100476
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Started",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "afb8baf",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789081123
+        },
+        {
+          "category": "deploys",
+          "title": "Deploy Succeeded",
+          "description": "**api** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2608565",
+            "actor": "Aisha"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789091647
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**worker** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "2446960",
+            "actor": "Chloe"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789106127
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "00e6e71",
+            "actor": "Sam"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789057613
+        },
+        {
+          "category": "deploys",
+          "title": "Rollback Triggered",
+          "description": "**web** to production",
+          "icon": "🚀",
+          "tags": {
+            "sha": "c906e57",
+            "actor": "Diego"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789072378
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789086050
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789094384
+        },
+        {
+          "category": "builds",
+          "title": "Build Passed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789077408
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789084371
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789064613
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789078304
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789099514
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789050549
+        },
+        {
+          "category": "builds",
+          "title": "Tests Flaked",
+          "icon": "🔧",
+          "tags": {
+            "branch": "main"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789067896
+        },
+        {
+          "category": "builds",
+          "title": "Build Failed",
+          "icon": "🔧",
+          "tags": {
+            "branch": "release"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789063472
+        },
+        {
+          "category": "incidents",
+          "title": "Incident Opened",
+          "description": "Severity **SEV2**",
+          "icon": "🔥",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789050910
+        }
+      ],
+      "insights": [
+        {
+          "title": "Deploys (30d)",
+          "value": "212",
+          "icon": "🚀"
+        },
+        {
+          "title": "Success rate",
+          "value": "97.6%",
+          "icon": "✅"
+        },
+        {
+          "title": "Mean build",
+          "value": "4m 12s",
+          "icon": "⏱️"
+        },
+        {
+          "title": "Open incidents",
+          "value": "0",
+          "icon": "🔥"
+        }
+      ]
+    }
+  ]
+}

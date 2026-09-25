@@ -1,0 +1,6813 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "blogwave",
+      "name": "BlogWave",
+      "categories": [
+        "subscribers",
+        "posts",
+        "newsletter",
+        "traffic"
+      ],
+      "events": [
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786555363
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786580374
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786586400
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786588861
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786573384
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786574080
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786585831
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786580016
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786564399
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "7411"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786548552
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786599581
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786559903
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786563392
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786585829
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786559324
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786554017
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786560338
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786674599
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786635834
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786641689
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786675656
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786629729
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786680985
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786666865
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**Shipping faster**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786637773
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "8386"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786679795
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "7996"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786642147
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786669262
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786666685
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786671676
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786680997
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786671750
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786682905
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786684254
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786766123
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786721144
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786750392
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786720497
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786760537
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786760918
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786772420
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786732793
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786718346
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786727770
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786735644
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786762937
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786718580
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "9275"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786764222
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786738129
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786729603
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1786729375
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786760414
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786750895
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786717897
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786768091
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786768872
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786766083
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786741733
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786833302
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786811961
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786839310
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786853996
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786823282
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786818928
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786835749
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**Shipping faster**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786810238
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786821202
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786817536
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786827417
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786813293
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786823800
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786841689
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786837776
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786812945
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786836016
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786854088
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786830637
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786820518
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786843432
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786854350
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786809581
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786818976
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786933496
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786898657
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786941695
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786888891
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786942905
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786941640
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786933125
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786911435
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786919682
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786930709
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786906187
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1786925679
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786922383
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5651"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786944585
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786923240
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786932937
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786909472
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786937527
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786934672
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786894009
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786936230
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786924894
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786906899
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786938993
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787026173
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787032497
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787005693
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786996677
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786992248
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787002861
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787002778
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787003293
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786998461
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1786984283
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787026697
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787027121
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787028793
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787015680
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787011356
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787013525
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787117783
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787116234
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787069006
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787080992
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787077994
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787112131
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787114930
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787118661
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787071277
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787084982
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787114382
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787098715
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787115626
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787065043
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787080251
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787062054
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787199336
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787150615
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787170520
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787194531
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787195830
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787161285
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787182036
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "8752"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787174422
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787162155
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787159642
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787185016
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787203545
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787153910
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787169231
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787159997
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787202630
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787187156
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787190438
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787163134
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787167824
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787274452
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787272379
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787258771
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787284463
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787281743
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787285204
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787254193
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787268435
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787235230
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787256945
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787250439
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787287654
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787258495
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787249380
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787281666
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787257216
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787262903
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787262983
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787354985
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787332453
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787359234
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787336451
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787373286
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787337360
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787341610
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787359727
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787340810
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787345026
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787335920
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787324808
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787327078
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787335376
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787345723
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787350834
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787370087
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787335974
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787451709
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787437860
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787452828
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787451424
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787430950
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787440468
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787451379
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787430178
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787418652
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787417345
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787432556
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787410254
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787441966
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787408789
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787421478
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787452101
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787425810
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787437179
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787456165
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787407392
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787547559
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787546650
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787544691
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787508080
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787502891
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787535259
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**Shipping faster**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787531182
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "9028"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787545115
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787539344
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787524552
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787511002
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787529771
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787495640
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787514643
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787546611
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787550566
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787542226
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787596932
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787580685
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787617377
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787591446
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787600713
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787606314
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787592082
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787605931
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787617817
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787636627
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787598789
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787601681
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787619739
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787631928
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787584747
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787604376
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787623136
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787614663
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787592482
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787704433
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787715443
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787691192
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787667887
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787701453
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787679368
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787692349
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787700968
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787667087
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787704205
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787712859
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787706907
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787681568
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787719749
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787667945
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787677560
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787707079
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787669652
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787675980
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787674163
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787710678
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787670684
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787704798
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787676372
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787670168
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787695498
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787788974
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787794376
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787766684
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787800510
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787783510
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787765001
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**Shipping faster**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787773183
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "7225"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787775626
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "6062"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787786682
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787789927
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787796726
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787787333
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787757030
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787761297
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787804118
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787756814
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787886953
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787874876
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787884362
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787891927
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787882118
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787896708
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787869775
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": true,
+          "favorited": true,
+          "created_at": 1787879593
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787875318
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787839616
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787856222
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787886043
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787882773
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**Shipping faster**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787849324
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787874709
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787843708
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787840013
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787891780
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1787845849
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787860549
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787894349
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787982844
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787940655
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787964167
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787978561
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787965842
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787962720
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787929059
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787935817
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787935623
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787932031
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787948075
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787945965
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787927276
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787926020
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787940185
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787978692
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787937880
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787962983
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787960727
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787954650
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787963450
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787970480
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788055064
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788066838
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788040360
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788060196
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788014062
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5069"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788066121
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "8152"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788023579
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788031925
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788015427
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788056555
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788024917
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788019751
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788067421
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788041068
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788129365
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788132835
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788101227
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788105268
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788123121
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788131752
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788153581
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "4625"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788133389
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "8531"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788123032
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788107711
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788137815
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788140495
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788119015
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788149898
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788114426
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788138310
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788111638
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788149269
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788148588
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788144666
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788216073
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788230868
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788229926
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788204297
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788186359
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788208794
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788200553
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788214295
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788219282
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788192798
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788211210
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788223613
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788190155
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788237681
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788223428
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788235328
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788297848
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788325644
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788281373
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788281701
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788272363
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788312069
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788283357
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788326158
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788284907
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788295574
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788305645
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788311598
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788294181
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788314452
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788325812
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788291453
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788294102
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788272892
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788282882
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788326570
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788305590
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788301053
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788306604
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788414196
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788391186
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788397094
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788359539
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788360620
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788386159
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788400658
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788404789
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788359089
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788408313
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788360581
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788393336
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788413753
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788378856
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788378554
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788395040
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788368886
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788414858
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788372916
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788389695
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788404537
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788485905
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788477116
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788456556
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788469459
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788470028
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788484548
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788459799
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788464343
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788449679
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788485795
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788451149
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788465443
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788445152
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**On simplicity**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788456715
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788461077
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788481934
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788473072
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788469216
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788463541
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788449360
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788464305
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788471311
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788495228
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788470286
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788475072
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788496215
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788492276
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788474458
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788486871
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788472728
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788534285
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788544761
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788545240
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788577603
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788555291
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788587328
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5728"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788562860
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788567729
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788574391
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788547274
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788532533
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788575368
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788561169
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788571716
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788538624
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788671448
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788637273
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788627856
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788627528
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**maria@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788626900
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788673147
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788618774
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788671346
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788645869
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "4810"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788665720
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "4497"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788629505
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788670572
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788638978
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788670560
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788671083
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788634249
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788619545
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788636388
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788664733
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788619991
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788638192
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788632533
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788746887
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788755309
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788712110
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788725230
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5264"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788741592
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788737050
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788757695
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788757576
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788735008
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788747445
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788713179
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788711533
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788705413
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788705192
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788744003
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788814234
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788845093
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788847065
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788807649
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788812287
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788839091
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788794627
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788816854
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788825687
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788797260
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788832855
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788825804
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788830522
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788830008
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788829507
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788805489
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788825400
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788809129
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788814248
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788821678
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788813158
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788827510
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788824490
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788810526
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788809421
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788879273
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788927640
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788921572
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788899339
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**wei@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788902084
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788925895
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**aisha@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788909604
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788879939
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788921678
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788895835
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**tomas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788896035
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788918058
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788899788
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788888508
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788916679
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788891127
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788884680
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788892308
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788930413
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788905365
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788907416
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788918323
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788927534
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788891554
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788984142
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789018397
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**iris@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788989096
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788991048
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**priya@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789012682
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788963212
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789015170
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789005388
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5930"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788998807
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "6121"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788998344
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789015453
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789003957
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788981038
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789013146
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788962971
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788973481
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788971860
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788993173
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789014683
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788965902
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Joined",
+          "description": "**diego@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789072828
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**chloe@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "organic"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789096734
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**sam@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "newsletter"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789057051
+        },
+        {
+          "category": "subscribers",
+          "title": "Subscriber Unsubscribed",
+          "description": "**jonas@example.com**",
+          "icon": "📬",
+          "tags": {
+            "source": "referral"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789060823
+        },
+        {
+          "category": "posts",
+          "title": "Post Published",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789053812
+        },
+        {
+          "category": "posts",
+          "title": "Post Updated",
+          "description": "**What we learned**",
+          "icon": "📝",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789080021
+        },
+        {
+          "category": "newsletter",
+          "title": "Newsletter Sent",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "8724"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789058735
+        },
+        {
+          "category": "newsletter",
+          "title": "Campaign Scheduled",
+          "icon": "✉️",
+          "tags": {
+            "recipients": "5220"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789074725
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789069517
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789105399
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789093461
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789091445
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789100634
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789075112
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789098035
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "google.com"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789081797
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "reddit.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789083912
+        },
+        {
+          "category": "traffic",
+          "title": "Traffic Spike",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789083014
+        },
+        {
+          "category": "traffic",
+          "title": "Referral Surge",
+          "icon": "📊",
+          "tags": {
+            "referrer": "news.ycombinator.com"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789082463
+        }
+      ],
+      "insights": [
+        {
+          "title": "Subscribers",
+          "value": "9,842",
+          "icon": "📬"
+        },
+        {
+          "title": "Posts (30d)",
+          "value": "18",
+          "icon": "📝"
+        },
+        {
+          "title": "Open rate",
+          "value": "41%",
+          "icon": "👀"
+        },
+        {
+          "title": "Top referrer",
+          "value": "Hacker News",
+          "icon": "🔗"
+        }
+      ]
+    }
+  ]
+}
