@@ -251,7 +251,7 @@ describe('butters CLI', () => {
 
   // This only proves each file is valid JSON the CLI will send, not that the
   // real importer accepts it.
-  for (const scenario of ['ecommerce', 'saas', 'devops', 'content', 'all-scenarios']) {
+  for (const scenario of ['bakery', 'game-studio', 'homelab', 'greenhouse', 'saas', 'all-scenarios']) {
     test(`load sends demos/${scenario}.json as-is`, async () => {
       const file = join(import.meta.dir, '..', 'demos', `${scenario}.json`)
       const { exitCode } = await cli('load', '--file', file)

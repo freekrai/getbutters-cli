@@ -1,6 +1,6 @@
 # butters
 
-The command-line client for [GetButters](https://app.getbutters.com): create
+The command-line client for [GetButters](https://getbutters.com): create
 projects, push events, and export or import a team's data.
 
 It is a remote HTTP client. It never opens a database — every command goes
@@ -218,11 +218,12 @@ without using real data.
 
 | Scenario | File | Contents |
 |----------|------|----------|
-| QuickShop | `demos/ecommerce.json` | E-commerce: orders, payments, signups, reviews |
-| LaunchPad | `demos/saas.json` | SaaS app: signups, billing, API usage, errors |
-| DeployBot | `demos/devops.json` | CI/CD: deploys, builds, incidents |
-| BlogWave | `demos/content.json` | Content platform: subscribers, newsletter, traffic, posts |
-| All | `demos/all-scenarios.json` | All four combined |
+| Proofing Room | `demos/bakery.json` | Micro-bakery: preorders, oven batches, pickups, sell-outs |
+| Mothlight Games | `demos/game-studio.json` | Indie game launch: players, achievements, crashes, wishlists |
+| Attic Rack | `demos/homelab.json` | Homelab: backups, UPS power, disk health, network |
+| Countersign | `demos/saas.json` | E-signature SaaS: trials, billing, signed documents, integrations |
+| Fernhill Greenhouse | `demos/greenhouse.json` | Greenhouse sensors: climate, irrigation, harvests, frost alerts |
+| All | `demos/all-scenarios.json` | All five combined |
 
 From a clone of this repo:
 
@@ -231,7 +232,7 @@ From a clone of this repo:
 butters load --file demos/all-scenarios.json
 
 # Load one scenario
-butters load --file demos/ecommerce.json
+butters load --file demos/bakery.json
 
 # Regenerate with fresh random data
 bun run demos:generate
@@ -240,15 +241,15 @@ bun run demos:generate
 Or fetch just the one you want:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/freekrai/getbutters-cli/main/demos/ecommerce.json
-butters load --file ecommerce.json
+curl -fLO https://raw.githubusercontent.com/freekrai/getbutters-cli/main/demos/bakery.json
+butters load --file bakery.json
 ```
 
-`demos/generate.ts` writes all five files. Event times are stamped relative to
+`demos/generate.ts` writes all six files. Event times are stamped relative to
 when it runs, so regenerate before a demo if you want the charts to end today.
 Event counts move between generations — each category draws a random number of
-events per day — so expect roughly 500–800 events per scenario rather than a
-fixed figure.
+events per day — so expect roughly 350 to 1,000 events per scenario rather than
+a fixed figure.
 
 Loading a scenario counts against your plan's monthly event allowance, and a
 single scenario carries more events than the free tier allows.

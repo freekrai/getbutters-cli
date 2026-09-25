@@ -1,0 +1,6859 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "fernhill",
+      "name": "Fernhill Greenhouse",
+      "categories": [
+        "sensors",
+        "irrigation",
+        "harvest",
+        "alerts"
+      ],
+      "events": [
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787872154
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787867074
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787888645
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787843040
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "38% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787882192
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787891353
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787860024
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787874043
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787865197
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787845194
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787879548
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "48"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787847305
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "4"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787872188
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "8"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787885193
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "3 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787854910
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787856268
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "7 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787894621
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "4 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787840925
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "6 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787876519
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787926032
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787968099
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "42% RH"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1787925719
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787944340
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787958870
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787963175
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787941868
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787929019
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787961451
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "31"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787954889
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "6"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787973118
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "24"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787946258
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "42"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787965002
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "48"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787967081
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "7"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787932818
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "7"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787976224
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787972735
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "8 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787982411
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788017396
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788046962
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788026774
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788067709
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788037593
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788025299
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788017086
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "32°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788066181
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788034735
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "19% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788021351
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788045242
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "32°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788013616
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788057111
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "59"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788066828
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "36"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788034130
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "17"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788026134
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "13 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788025655
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788038347
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "5 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788069134
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788155178
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788154198
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788119781
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788118783
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788133732
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788120385
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788143704
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788148201
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788111929
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788120214
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788126753
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788142388
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "32"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788115593
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "51"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788115588
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "8"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788136026
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "45"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788105444
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "7 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788115883
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "9 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788117849
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788146106
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788227052
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788191756
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "19% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788224686
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788192065
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788227817
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788239021
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788216390
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788231213
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788199908
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "31"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788240771
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "27"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788232146
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788191216
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "24"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788234028
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "56"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788190150
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "4 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788191142
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "3 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788212545
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "1 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788211334
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788218077
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788280786
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788284449
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788319703
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788309875
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788296969
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788314050
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788297933
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788276710
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788307957
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788318114
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "31"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788272110
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "19"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788282883
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "55"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788321564
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "39"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788289021
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "31"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788289010
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "29"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788321143
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788324777
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788320685
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "37% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788373428
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788392785
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788371697
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788412934
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788403435
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788373823
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788414090
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "45"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788391114
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "39"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788413915
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "10 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788375054
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "4 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788384234
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "1 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788372084
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788384332
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788472916
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788479893
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788494587
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788478972
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788465924
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788449396
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788472150
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788491810
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "41% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788500975
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "32°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788470929
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788498039
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "56"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788449770
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788475089
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "50"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788467228
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "40"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788444213
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "10"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788499684
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "56"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788463267
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "13"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788491382
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "20"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788476984
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "7 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788463451
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "3 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788458443
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "10 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788463044
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788445197
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788582527
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788550408
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "48% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788564968
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788538696
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788574575
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788556773
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788539835
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788548963
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788553466
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788533902
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788552276
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "58"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788551022
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788578092
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "5 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788553159
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788650298
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788674162
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788626111
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788645494
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788641417
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788627280
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "10"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788634580
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788671438
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788667739
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "11"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788662770
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "4"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788639432
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "4 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788639567
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "1 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788642290
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788673188
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "17% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788747635
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "42% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788751976
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788721881
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788738872
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788759790
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788726863
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "50% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788708979
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788731068
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788739543
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "33"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788729305
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "45"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788741445
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "20"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788746231
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788717884
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "54"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788742061
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "13 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788717033
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "4 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788747799
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "8 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788730504
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "6 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788746615
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "11 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788704688
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788741599
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788795780
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788842731
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788806922
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788799434
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788801585
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788843596
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788796510
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788811783
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788799159
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788830274
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788829551
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788815843
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "60"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788816178
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "36"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788817038
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "59"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788790480
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "44"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788801486
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "51"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788821981
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788842590
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "10 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788812106
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "3 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788810670
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "14 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788842493
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "4 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788805173
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "13 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788833144
+        },
+        {
+          "category": "alerts",
+          "title": "Door Left Open",
+          "icon": "🥶",
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788830868
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788926527
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788909174
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788877015
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788905185
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788886242
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788922778
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "41% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788924949
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788911816
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788895893
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788894985
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "50"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788920147
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "43"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788885736
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "30"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788892601
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "28"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788885189
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788932452
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "13"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788897047
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "13"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788919241
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "1 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788931993
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "8 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788915245
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "14 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788885095
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "3 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788917120
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "4 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788894727
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788882867
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788966731
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788963639
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788978603
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789014769
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788993053
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "41% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788972721
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "19% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788985124
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789014962
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788981632
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789004183
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789004138
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789007065
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "23"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788970273
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "48"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789017258
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "35"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788987840
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "57"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788967458
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "4 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789010351
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789012928
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788985956
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "12 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788995335
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789075433
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789102226
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789050921
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789106245
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789065430
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789071900
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789066718
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "42% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789101479
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789066232
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789064513
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "5"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789080267
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "48"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789099404
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "40"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789089046
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "11"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789077565
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789081927
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "10"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789098200
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789106188
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "6"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789103248
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "14 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789073910
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "3 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789063761
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789054360
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "7 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789084908
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "8 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789081162
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789078782
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789167985
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789139834
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789143653
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789177981
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789150237
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789164661
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789167379
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789190855
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789160878
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "47"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789186979
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "32"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789191013
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "4"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789170568
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789189718
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789161894
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "25"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789158390
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "23"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789172555
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "2 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789152172
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789154232
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789250146
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789242010
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789278050
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789222764
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789250844
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "37% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789271510
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "35"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789250711
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "33"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789268198
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "21"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789265442
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "15"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789263350
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789261705
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789251793
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789348841
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789327138
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789358324
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789345981
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789315060
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789358836
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789344193
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "42% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789350649
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789315297
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789354611
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789339665
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789313613
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789323083
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789350527
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789356590
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "36"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789345445
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "28"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789338507
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789337896
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "40"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789333869
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789310131
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "13 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789340230
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "7 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789344571
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789444986
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789412301
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789437006
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789412165
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789422578
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789405489
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789417576
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789435263
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789444726
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789437647
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789429086
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789423775
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789436873
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789402636
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789432577
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789418343
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "11"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789402042
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "43"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789423751
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "52"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789426787
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "27"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789403294
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789431942
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "38"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789406366
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "18"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789395038
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "57"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789402515
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "7 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789395145
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "32°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789505320
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789529146
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789501339
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789485330
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789536137
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789505845
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789524682
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "38% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789537556
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789519353
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789518363
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789495678
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789488938
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789503899
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789499581
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "42% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789490132
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789526934
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "54"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789517158
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789491986
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "43"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789533314
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "47"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789499013
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "19"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789514745
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "17"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789503558
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789487552
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "13 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789522748
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "6 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789533803
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789500195
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789616212
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789591640
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789623480
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789605611
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "48% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789624598
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "39% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789571671
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "38% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789576633
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789574274
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "17% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789599826
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789570291
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789595416
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789622349
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789598261
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789613193
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "34"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789589028
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789608302
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "15"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789599259
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "8 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789620544
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "5 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789581402
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789573802
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789697672
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789673334
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789668330
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "38% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789701504
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789673392
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789673616
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "50% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789660978
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789699686
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789665617
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789690898
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "17"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789710336
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "59"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789662826
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "19"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789666673
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "58"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789693247
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "3 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789687923
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "3 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789653893
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789682857
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "40% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789765881
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789772957
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789764655
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789746959
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789778400
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789771003
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789774858
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789782552
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789742962
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "50% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789766203
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789780391
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789761341
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "32°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789756962
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789769566
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789768177
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789774710
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "33"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789772477
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "56"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789742762
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "31"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789748729
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "18"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789788148
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "23"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789748221
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "58"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789789315
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "32"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789745738
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "53"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789754040
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "5 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789788331
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789747094
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "10 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789769355
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789876356
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789854362
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789841185
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789845457
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "49% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789833092
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "17% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789830625
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789850344
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789829771
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "13"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789869734
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "48"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789838823
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "58"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789850511
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "19"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789853047
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "56"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789856815
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "32"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789853401
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "11"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789883129
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "44"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789841163
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "1 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789854219
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "7 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789865933
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789879327
+        },
+        {
+          "category": "alerts",
+          "title": "Vent Motor Fault",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789832339
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789932677
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789957621
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "19% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789914078
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789939067
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789923599
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789962459
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789958480
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789943498
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789942092
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789950046
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789945693
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789919554
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "19% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789946515
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789952948
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789958724
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "16"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789951890
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "41"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789935998
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "42"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789944169
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789954085
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789914954
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "8 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789937000
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789963403
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789936611
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790055455
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790001676
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790036247
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790008787
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790021130
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "50% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790051580
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790042226
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790013243
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "46"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790043415
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "15"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790054126
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "27"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790012219
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "1 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790030376
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "13 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790023108
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "8 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790052952
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "1 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790016462
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "9 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790041519
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790055651
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790140113
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790102002
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790122816
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "9% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790114137
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790136190
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790130955
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "41% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790101977
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "45% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790125115
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "18% moisture"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790135702
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "10% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790093248
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "9"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790096815
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "35"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790132729
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "42"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790105158
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "40"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790098101
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "12"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790139857
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "2 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790109320
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "11 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790117066
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "6 kg **lettuce**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790135570
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790136787
+        },
+        {
+          "category": "alerts",
+          "title": "Frost Warning",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790086210
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "48% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790186862
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790185092
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "14% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790218215
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790183546
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "44% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790194537
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "33°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790184293
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "13% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790186027
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "20% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790177131
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790172409
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "28°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790202234
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "30°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790192491
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "41% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790225606
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790189216
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790180129
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "36"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790218095
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "25"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790198021
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "7"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790224292
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "5"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790178658
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "42"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790207985
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "9 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790174801
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "3 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790188208
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790222474
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790290122
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790290847
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "11% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790272156
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "29°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790296948
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790311967
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790304973
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "43% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790292498
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790305573
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "46% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790264145
+        },
+        {
+          "category": "sensors",
+          "title": "Humidity Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "48% RH"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790304753
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**hanging rack**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "50% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790268969
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B3**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790312647
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "15% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790264290
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "12% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790299127
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A2**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "22"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790309014
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "30"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790282857
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "39"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790313644
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "29"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790265495
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "7 kg **cherry tomatoes**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790278278
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "2 kg **microgreens**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790290894
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **strawberries**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790289504
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "11 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790265493
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "1 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790277042
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "31°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790395101
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed B1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "48% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790367181
+        },
+        {
+          "category": "sensors",
+          "title": "Too Warm",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790391470
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "38% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790392715
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**bed A2**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "16% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790348975
+        },
+        {
+          "category": "sensors",
+          "title": "Light Level Low",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "36°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790402150
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**bed A1**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "47% RH"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790368974
+        },
+        {
+          "category": "sensors",
+          "title": "Soil Dry",
+          "description": "**propagation bench**",
+          "icon": "🌡️",
+          "tags": {
+            "reading": "8% moisture"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790374836
+        },
+        {
+          "category": "irrigation",
+          "title": "Valve Stuck",
+          "description": "**bed B1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "5"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790396857
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**propagation bench**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "34"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790344973
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "46"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790358279
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "49"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790361368
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed B3**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "38"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790383852
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**bed A1**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "23"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790377938
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Finished",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "39"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790385235
+        },
+        {
+          "category": "irrigation",
+          "title": "Watering Started",
+          "description": "**hanging rack**",
+          "icon": "🚿",
+          "tags": {
+            "litres": "26"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790354856
+        },
+        {
+          "category": "harvest",
+          "title": "Seedlings Potted On",
+          "description": "8 kg **chillies**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790354058
+        },
+        {
+          "category": "harvest",
+          "title": "Harvest Logged",
+          "description": "12 kg **basil**",
+          "icon": "🧺",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790382683
+        },
+        {
+          "category": "alerts",
+          "title": "Door Left Open",
+          "icon": "🥶",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790353205
+        }
+      ],
+      "insights": [
+        {
+          "title": "Avg humidity",
+          "value": "68%",
+          "icon": "💧"
+        },
+        {
+          "title": "Water used (30d)",
+          "value": "1,240 L",
+          "icon": "🚿"
+        },
+        {
+          "title": "Harvested",
+          "value": "212 kg",
+          "icon": "🧺"
+        },
+        {
+          "title": "Frost alerts",
+          "value": "3",
+          "icon": "🥶"
+        }
+      ]
+    }
+  ]
+}

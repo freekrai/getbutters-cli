@@ -1,0 +1,3888 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "attic-rack",
+      "name": "Attic Rack",
+      "categories": [
+        "backups",
+        "power",
+        "disks",
+        "network"
+      ],
+      "events": [
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "338 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787887644
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "292 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787865706
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "282 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787896613
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "267 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787871169
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "38°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787878722
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "52°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787876609
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787863891
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787880603
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787879829
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787862865
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787866811
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787877371
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "265 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787961555
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "207 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787969675
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "132 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787969500
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "43%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787952485
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pve-node** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787969671
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**mini-pc** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787942229
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787971652
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787960507
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1787958723
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "286 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788041617
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "10 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788038608
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "194 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788055964
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "60%"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788029207
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "50°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788030514
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "53°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788026829
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "56°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788045151
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "56°C"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788039854
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788059385
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788043351
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788068784
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788028718
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788036430
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788063853
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788048913
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "332 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788149361
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "121 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788118577
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "97 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788114472
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "96%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788118818
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**mini-pc** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "57°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788122908
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788112377
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "54°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788109870
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788120280
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788125050
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788119790
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "312 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788223104
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "45 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788230920
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "258 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788194980
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "360 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788211539
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "47%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788238256
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "60%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788220800
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "44°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788199364
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**router** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "52°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788233289
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788192541
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788220242
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788216469
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788223977
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "275 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788296789
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "305 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788294396
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "112 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788324513
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "317 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788299050
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "58%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788313737
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**mini-pc** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788307257
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788285549
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788297675
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788303603
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "371 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788395618
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "473 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788371954
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "360 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788395372
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "52 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788362655
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "69%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788368555
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788369726
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788376212
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788402235
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "388 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788469850
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "179 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788490329
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "254 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788445951
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "92 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788500313
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "43%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788494795
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "58°C"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788462605
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**mini-pc** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "57°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788455273
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "58°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788455448
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "43°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788461001
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788490243
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788484994
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788473135
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788478236
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788466046
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "267 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788566471
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "39 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788567580
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "316 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788579371
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "200 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788580745
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "89%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788535839
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "50%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788546855
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-01** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788537098
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "50°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788540556
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788580213
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788550279
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788559877
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788587358
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788567596
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788583010
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788561383
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "235 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788627633
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "15 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788641657
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "224 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788626881
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "53%"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788673569
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "83%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788654003
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "52°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788636321
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "38°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788640060
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788620740
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788624317
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788623297
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788638833
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "403 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788715171
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "138 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788753807
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "195 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788751388
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "65%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788730330
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "56%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788732540
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pve-node** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "51°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788719595
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "51°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788704084
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**router** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "44°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788729264
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788759850
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788752129
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "449 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788821808
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "150 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788819705
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "399 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788800620
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "67%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788806771
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "41%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788828610
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pve-node** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "48°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788831180
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "52°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788814569
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**router** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "35°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1788800842
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788814937
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788801714
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788790950
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788840193
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788810918
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788821320
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "441 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788932817
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "470 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788894712
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "22 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788902380
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "149 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788907290
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pve-node** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "43°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788909277
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "37°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788895374
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788884322
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788880165
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788884887
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788928160
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788897970
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788883080
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788892626
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788922463
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "38 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788975381
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "374 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789010424
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "100 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789009315
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "218 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788993133
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "53%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789005489
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pi-garage** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "48°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788991874
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "42°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788996619
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "47°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788974133
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": true,
+          "favorited": false,
+          "created_at": 1788964247
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788965253
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789002598
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788964479
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1788963714
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "370 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789048892
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "69 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789054173
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "69 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789056078
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-02** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "57°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789080496
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**mini-pc** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "46°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789074032
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "53°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789104318
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**mini-pc** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789083042
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789057776
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789069404
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "269 GB"
+          },
+          "notify": true,
+          "favorited": false,
+          "created_at": 1789159970
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "383 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789187485
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "86 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789165007
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "37°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789182912
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789177484
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "40°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789160941
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789164208
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789159344
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789182943
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789169175
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789172706
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "312 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789261223
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "152 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789273575
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "143 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789242341
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "54°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789260991
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789231230
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789230831
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789231566
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "19 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789315255
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "409 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789310368
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "339 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789344775
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "66%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789334866
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "67%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789322986
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "51°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789308645
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "41°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789310928
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "37°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789333890
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**mini-pc** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "43°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789343342
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789342230
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789323354
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789322958
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789334801
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789352138
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789327926
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789322856
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789363386
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "59 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789439144
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "193 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789401859
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "196 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789400832
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "97 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789402853
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "94%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789447567
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "89%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789432559
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**router** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "38°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789420019
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789409587
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789435370
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789449266
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789432588
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789411767
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789427329
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789411979
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "76 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789492588
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "64 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789493425
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "148 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789532133
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "79 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789493784
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "69%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789524621
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "48%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789504105
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789523754
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**router** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789527681
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789531150
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789516790
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789496204
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789489971
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "119 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789623819
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "296 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789597604
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "383 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789592487
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "59%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789573819
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-01** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "34°C"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789569761
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789610147
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pi-garage** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "46°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789585038
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789604262
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789600660
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "59 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789653644
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "411 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789699328
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "236 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789694972
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "68%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789674615
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789686027
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**mini-pc** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "45°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789704431
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789701660
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789682053
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789682311
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789662183
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789708113
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789703919
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789694206
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "31 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789740226
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "421 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789783482
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "98 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789756890
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "207 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789772456
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-02** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789770218
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pve-node** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "34°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789743837
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**router** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "51°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789757072
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-02** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "35°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789789632
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789784330
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789792555
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789790165
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789793992
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789793584
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "164 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789870552
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "230 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789840740
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "102 GB"
+          },
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789860221
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "401 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789835333
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "45°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789865438
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-02** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "42°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789829601
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**router** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "58°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789843148
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "51°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789849311
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789877047
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789852384
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789845213
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1789861216
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789844054
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "229 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789961999
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "85 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789934190
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "434 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789929087
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "68%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789948963
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "60%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789943747
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**nas-02** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "58°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789913649
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789927665
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**router** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "39°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789962087
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789951104
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789936096
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789949758
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789953241
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1789924421
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "114 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790042116
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "204 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790001724
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "417 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790004363
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "64%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790020929
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "48%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790039236
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "37°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790017966
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pi-garage** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790004187
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790008324
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790036269
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790011989
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790013541
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790019190
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "309 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790135521
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "346 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790123601
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "306 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790116921
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "283 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790103834
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "87%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790130277
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pve-node** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "53°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790110946
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**mini-pc** /dev/sdd",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "56°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790140733
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "49°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790096236
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790120173
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790099782
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790091668
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790098312
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790110869
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790098359
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "147 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790227013
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "412 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790200245
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "405 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790221829
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**router**",
+          "icon": "💾",
+          "tags": {
+            "size": "186 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790206372
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**nas-01** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "37°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790189013
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**pve-node** /dev/sdc",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "52°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790184195
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790204356
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790203102
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790208515
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "220 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790277693
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**nas-01**",
+          "icon": "💾",
+          "tags": {
+            "size": "140 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790259696
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**mini-pc**",
+          "icon": "💾",
+          "tags": {
+            "size": "79 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790311971
+        },
+        {
+          "category": "power",
+          "title": "UPS Self-test Passed",
+          "icon": "🔌",
+          "tags": {
+            "battery": "49%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790272549
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**nas-01** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "50°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790308227
+        },
+        {
+          "category": "disks",
+          "title": "SMART Warning",
+          "description": "**pve-node** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "55°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790272961
+        },
+        {
+          "category": "disks",
+          "title": "Drive Running Hot",
+          "description": "**pve-node** /dev/sda",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "58°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790269456
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790271609
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790298106
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**unknown-esp32**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790310506
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790306934
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790311774
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": true,
+          "created_at": 1790307842
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790279912
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**nas-02**",
+          "icon": "💾",
+          "tags": {
+            "size": "202 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790356222
+        },
+        {
+          "category": "backups",
+          "title": "Backup Failed",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "53 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790383684
+        },
+        {
+          "category": "backups",
+          "title": "Offsite Sync Finished",
+          "description": "**pi-garage**",
+          "icon": "💾",
+          "tags": {
+            "size": "198 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790402286
+        },
+        {
+          "category": "backups",
+          "title": "Snapshot Taken",
+          "description": "**pve-node**",
+          "icon": "💾",
+          "tags": {
+            "size": "404 GB"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790397701
+        },
+        {
+          "category": "power",
+          "title": "On Battery",
+          "icon": "🔌",
+          "tags": {
+            "battery": "91%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790385996
+        },
+        {
+          "category": "power",
+          "title": "Power Restored",
+          "icon": "🔌",
+          "tags": {
+            "battery": "55%"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790387331
+        },
+        {
+          "category": "disks",
+          "title": "Scrub Finished",
+          "description": "**router** /dev/sdb",
+          "icon": "🌡️",
+          "tags": {
+            "temp": "43°C"
+          },
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790398082
+        },
+        {
+          "category": "network",
+          "title": "Container Updated",
+          "description": "**home-assistant**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790384568
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790370661
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**jellyfin**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790397568
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**grafana**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790401850
+        },
+        {
+          "category": "network",
+          "title": "New Device Joined",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790384438
+        },
+        {
+          "category": "network",
+          "title": "Certificate Renewed",
+          "description": "**pihole**",
+          "icon": "📡",
+          "notify": false,
+          "favorited": false,
+          "created_at": 1790358390
+        }
+      ],
+      "insights": [
+        {
+          "title": "Uptime (30d)",
+          "value": "99.94%",
+          "icon": "🟢"
+        },
+        {
+          "title": "Backups run",
+          "value": "90",
+          "icon": "💾"
+        },
+        {
+          "title": "Storage used",
+          "value": "71%",
+          "icon": "🗄️"
+        },
+        {
+          "title": "Power draw",
+          "value": "186 W",
+          "icon": "🔌"
+        }
+      ]
+    }
+  ]
+}
