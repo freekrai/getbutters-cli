@@ -7,12 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": [
-      "**",
-      "!**/node_modules",
-      "!**/.git",
-      "!demos/*.json"
-    ]
+    "includes": ["**", "!**/node_modules", "!**/.git", "!demos/*.json"]
   },
   "formatter": {
     "enabled": true,
@@ -24,12 +19,7 @@
     "lineWidth": 120,
     "attributePosition": "auto",
     "bracketSpacing": true,
-    "includes": [
-      "**",
-      "!**/node_modules",
-      "!**/.git",
-      "!demos/*.json"
-    ]
+    "includes": ["**", "!**/node_modules", "!**/.git", "!demos/*.json"]
   },
   "assist": {
     "actions": {
