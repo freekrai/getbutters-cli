@@ -292,8 +292,9 @@ bun run lint:fix
 
 The tests stand a fake API up on `Bun.serve` and drive the CLI as a subprocess,
 the same path a user's shell takes. They check what the CLI sends and how it
-reports what comes back; they need no database. Whether the real API agrees
-with the CLI is tested in the app's repo.
+reports what comes back; they need no database. They do not prove the real API
+agrees: nothing tests this CLI against the real API yet. The app's repo has an
+end-to-end test, but it drives the app's own older copy of the CLI.
 
 ### Building
 

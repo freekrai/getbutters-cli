@@ -6,8 +6,8 @@ import { join } from 'node:path'
 /**
  * The CLI is a remote HTTP client, so these tests stand up a fake API and
  * drive the CLI as a subprocess — the same path a user's shell takes. They
- * check what the CLI sends and how it reports what comes back. Whether the
- * real API agrees with it is tested in the app's repo.
+ * check what the CLI sends and how it reports what comes back, not whether the
+ * real API agrees; nothing tests that for this copy of the CLI yet.
  */
 
 const CLI = join(import.meta.dir, '..', 'src', 'index.ts')
@@ -249,8 +249,8 @@ describe('butters CLI', () => {
     expect(stdout).toContain('projaaaaaaaa -> projbbbbbbbb')
   })
 
-  // Whether the importer accepts these files is tested against the real API in
-  // the app's repo. This only proves each one is valid JSON the CLI will send.
+  // This only proves each file is valid JSON the CLI will send, not that the
+  // real importer accepts it.
   for (const scenario of ['ecommerce', 'saas', 'devops', 'content', 'all-scenarios']) {
     test(`load sends demos/${scenario}.json as-is`, async () => {
       const file = join(import.meta.dir, '..', 'demos', `${scenario}.json`)
