@@ -1,11 +1,11 @@
 ---
 name: butters
-description: Pushes events, sets KPI insight cards, creates and lists projects, and exports or imports data in GetButters using the `butters` CLI. Use when the user wants to log or track an event in GetButters, report a job result or error to a feed, update a dashboard metric, back up or restore a GetButters organization, or load demo data.
+description: Pushes events, sets KPI insight cards, creates and lists projects, and exports or imports data in Get Butters using the `butters` CLI. Use when the user wants to log or track an event in Get Butters, report a job result or error to a feed, update a dashboard metric, back up or restore a Get Butters organization, or load demo data.
 ---
 
 # butters
 
-`butters` is a thin HTTP client for the GetButters API. Every command needs a
+`butters` is a thin HTTP client for the Get Butters API. Every command needs a
 reachable server and an API key; the key decides which organization you act on.
 
 ## Before running anything

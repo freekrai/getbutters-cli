@@ -4,7 +4,7 @@ import { defineCommand, runMain } from 'citty'
 import { version } from '../package.json'
 
 /**
- * GetButters CLI.
+ * Get Butters CLI.
  *
  * A remote HTTP client. It never opens the database — everything goes through
  * the same authenticated API an outside integration would use, and the same

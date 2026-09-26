@@ -1,6 +1,6 @@
 # butters
 
-The command-line client for [GetButters](https://getbutters.com): create
+The command-line client for [Get Butters](https://getbutters.com): create
 projects, push events, and export or import a team's data.
 
 It is a remote HTTP client. It never opens a database — every command goes

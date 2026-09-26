@@ -1,7 +1,7 @@
 {
   "name": "getbutters-cli",
   "version": "0.1.0",
-  "description": "Push events and manage GetButters projects from the command line",
+  "description": "Push events and manage Get Butters projects from the command line",
   "type": "module",
   "license": "MIT",
   "author": "Roger Stringer",
