@@ -8,10 +8,41 @@ through the same authenticated API an outside integration would use, and the
 API key decides which organization you are operating on. So the server must be
 reachable for every command, including `export` and `load`.
 
-## Install
+- One self-contained binary per platform; no runtime to install
+- Includes an [agent skill](#agent-skill) so Claude Code, Codex, Cursor and
+  other agents can drive it
 
-Download the binary for your platform from the
-[latest release](https://github.com/freekrai/getbutters-cli/releases/latest). No runtime needed:
+## Quick start
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/freekrai/getbutters-cli/main/scripts/install.sh | bash
+export GETBUTTERS_API_KEY=ev_...   # from /app/api in the app
+butters list
+```
+
+The installer detects your platform and architecture, downloads the matching
+binary from the latest release, checks it against the release's `SHA256SUMS`,
+and puts it in `~/.local/bin` (it tells you if that is not on your `PATH`).
+
+Set `BUTTERS_BIN_DIR` to install somewhere else, or `BUTTERS_VERSION` to pin a
+release:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/freekrai/getbutters-cli/main/scripts/install.sh \
+  | BUTTERS_BIN_DIR=~/bin BUTTERS_VERSION=v0.1.0 bash
+```
+
+To let your coding agent use it too:
+
+```bash
+npx skills@latest add freekrai/getbutters-cli --skill butters
+```
+
+<details>
+<summary>Other installation methods</summary>
+
+**Download a binary yourself** from the
+[latest release](https://github.com/freekrai/getbutters-cli/releases/latest):
 
 | Platform | File |
 |----------|------|
@@ -30,16 +61,20 @@ mv butters /usr/local/bin/
 Each release has a `SHA256SUMS` file for checking the download
 (`shasum -a 256 -c SHA256SUMS --ignore-missing`).
 
-On macOS the binaries are unsigned, so Gatekeeper may block the first run.
-Clear the quarantine flag with `xattr -d com.apple.quarantine /usr/local/bin/butters`.
+On macOS the binaries are unsigned. A binary fetched with `curl` (including by
+the installer) runs as is, but one downloaded through a browser may be blocked
+by Gatekeeper; clear the quarantine flag with
+`xattr -d com.apple.quarantine /usr/local/bin/butters`.
 
-If you already have [Bun](https://bun.sh), you can run it from source instead:
+**Run from source** if you already have [Bun](https://bun.sh):
 
 ```bash
 git clone https://github.com/freekrai/getbutters-cli && cd getbutters-cli
 bun install
 bun run butters --help
 ```
+
+</details>
 
 ## Authentication
 
@@ -281,6 +316,36 @@ Back up nightly:
 butters export --file "backups/$(date +%F).json"
 ```
 
+## Agent skill
+
+[`skills/butters`](skills/butters) is an [Agent Skill](https://agentskills.io)
+that teaches coding agents (Claude Code and others) to drive this CLI: finding
+project ids, quoting `--metadata`, why `load` duplicates rather than replaces,
+and when to ask before notifying or loading demo data.
+
+Install it with the [skills CLI](https://github.com/vercel-labs/skills), which
+detects the agents you have and asks where to put it:
+
+```bash
+npx skills@latest add freekrai/getbutters-cli --skill butters
+```
+
+Add `-g` to install it for every project rather than just the current one, and
+`-a claude-code` (or another agent) to skip the agent prompt:
+
+```bash
+npx skills@latest add freekrai/getbutters-cli --skill butters -g -a claude-code
+```
+
+Or copy it by hand from a clone:
+
+```bash
+cp -r skills/butters ~/.claude/skills/
+```
+
+The skill assumes `butters` is on the `PATH` and a key is in
+`GETBUTTERS_API_KEY`.
+
 ## Development
 
 ```bash
@@ -296,6 +361,10 @@ the same path a user's shell takes. They check what the CLI sends and how it
 reports what comes back; they need no database. They do not prove the real API
 agrees: nothing tests this CLI against the real API yet. The app's repo has an
 end-to-end test, but it drives the app's own older copy of the CLI.
+
+`tests/install.test.ts` does the same for `scripts/install.sh`: it serves a
+fake release and checks the URLs the script fetches, the checksum check, and
+the install. Whether GitHub serves those URLs is only proven by a real release.
 
 ### Building
 
